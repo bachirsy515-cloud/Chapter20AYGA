@@ -44,6 +44,7 @@ canvas.pc{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z
 @keyframes fd{to{opacity:1}}
 .ch{font-family:var(--sans);font-size:clamp(.85rem,4vw,1.1rem);letter-spacing:.5em;text-transform:uppercase;color:var(--or);margin-top:1.2rem;padding-left:.5em}
 .i1{font-size:clamp(1.15rem,5vw,1.5rem);color:var(--or2);font-style:italic;margin-top:2.2rem}
+.i4{font-family:var(--sans);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--or);margin:1.8rem 0 0}
 .i2,.i3{font-size:clamp(.98rem,4vw,1.12rem);margin:.4rem 0 0}
 /* quote */
 .q{margin:1.8rem 0 .4rem;padding:1.3rem 1.3rem;border-left:2px solid var(--or);background:linear-gradient(90deg,rgba(90,15,35,.5),transparent);font-size:clamp(1.15rem,4.8vw,1.55rem);line-height:1.35;color:var(--or2);font-style:italic;border-radius:0 6px 6px 0}
@@ -103,7 +104,7 @@ canvas.pc{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z
 .sig{font-size:.95rem;color:var(--or);margin-top:1.4rem;letter-spacing:.08em}
 .home{margin-top:3rem;font-size:.62rem;padding:12px 20px;opacity:.7}
 /* music */
-#mu{position:fixed;left:max(14px,env(safe-area-inset-left));bottom:max(14px,env(safe-area-inset-bottom));z-index:85;font-family:var(--sans);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--or2);background:rgba(11,5,7,.7);border:1px solid rgba(217,191,140,.5);padding:11px 16px;border-radius:999px;cursor:pointer;display:none;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+#mu{position:fixed;left:max(14px,env(safe-area-inset-left));bottom:max(14px,env(safe-area-inset-bottom));z-index:110;font-family:var(--sans);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--or2);background:rgba(11,5,7,.7);border:1px solid rgba(217,191,140,.5);padding:11px 16px;border-radius:999px;cursor:pointer;display:none;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 #mu.on{display:block}
 @media(max-width:560px){#dots{display:none}}
 @media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;transition-duration:.01s!important}html{scroll-behavior:auto}}
@@ -120,38 +121,37 @@ canvas.pc{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z
     <h1 class="name" id="nm" aria-label="ASSY — Chapter 20"></h1>
     <div class="ch fd" style="animation-delay:2.4s" aria-hidden="true">Chapter 20.</div>
     <p class="i1 fd" style="animation-delay:4.2s">20 ans déjà, yangui dieum makk deh 😂😭</p>
-    <p class="i2 fd" style="animation-delay:6.4s">Alhamdoulilah pour une année de plus, une nouvelle étape et tout ce qui reste à venir. ❤️</p>
-    <p class="i3 fd" style="animation-delay:8.8s">Bon, trêve de plaisanterie… bienvenue dans une nouvelle décennie. 😂❤️</p>
+    <p class="i2 fd" style="animation-delay:6.4s">Alhamdoulilah pour une année de plus, une nouvelle étape et tout ce qui reste à venir.</p>
+    <p class="i3 fd" style="animation-delay:8.8s">Bon, trêve de plaisanterie… bienvenue dans une nouvelle décennie. 😂</p>
+    <p class="i4 fd" style="animation-delay:9.6s">Je te conseille d’activer la musique 😉</p>
     <button class="btn fd" id="open" style="animation-delay:10.4s">Ouvre ta surprise</button>
   </div>
 </div>
 
 <section id="c1" data-t="Chapitre 1"><div class="glow"></div><div class="wrap">
-  <div class="k r">Chapitre 1 · Happy birthday, Assy</div>
+  <div class="k r">Chapitre 1 · Happy birthday, Assietou</div>
   <h2 class="r">Bon, aujourd’hui, <em>c’est ton jour.</em></h2>
   <p class="r">Joyeux anniversaire, Assy ! ❤️</p>
-  <p class="r">20 ans, c’est quelque chose quand même. 😂</p>
+  <p class="r">20 ans, c’est à fêter.</p>
   <p class="r">Une nouvelle étape, de nouveaux projets, de nouvelles expériences et encore beaucoup de choses à découvrir.</p>
   <p class="r">Je te souhaite sincèrement le meilleur pour cette nouvelle année de ta vie.</p>
-  <p class="r">Que tes projets avancent, que tes efforts portent leurs fruits, que tu rencontres de bonnes personnes et que tu aies plein de raisons de sourire.</p>
+  <p class="r">Que tes projets avancent, que tes efforts portent leurs fruits et que tu aies plein de raisons de sourire.</p>
   <p class="r">Je te souhaite surtout la santé, la paix, la réussite et le bonheur.</p>
-  <p class="r s">Profite bien de ta journée. Aujourd’hui, c’est toi la star. 😂❤️</p>
+  <p class="r s">Profite bien de ta journée. Aujourd’hui, c’est toi la star. Et pas qu’aujourd’hui d’ailleurs 🙃</p>
   <button class="btn r" data-next>Suite ↓</button></div></section>
 
 <section id="c2" data-t="Chapitre 2"><div class="wrap">
   <div class="k r">Chapitre 2 · La suite du programme</div>
   <h2 class="r">20 ans, mais <em>le film ne fait que commencer.</em></h2>
   <p class="r">Franchement, il y a encore tellement de choses à vivre.</p>
-  <p class="r">Des projets à réaliser, des endroits à découvrir, des personnes à rencontrer et des expériences qui vont forcément nous apprendre quelque chose.</p>
   <p class="r">Tout ne sera pas toujours parfait, mais c’est aussi ça, la vie.</p>
   <p class="r">Le plus important, c’est de continuer à avancer, de croire en ses projets et de ne pas abandonner dès que les choses deviennent compliquées.</p>
   <p class="r">Prends le temps de profiter de ce que tu construis. Ne pense pas seulement à la destination, profite aussi du chemin.</p>
   <p class="r">Et surtout, que cette nouvelle année t’apporte de belles surprises.</p>
-  <p class="r s">On attend la suite du film maintenant. 😂❤️</p>
+  <p class="r s">On attend la suite du film maintenant.</p>
   <div class="cards">
-    <button class="card r" aria-expanded="false"><div class="t"><span>TES PROJETS</span><b>+</b></div><div class="m"><div><p>Que cette année t’aide à avancer vers ce qui compte vraiment pour toi.</p></div></div></button>
+    <button class="card r" aria-expanded="false"><div class="t"><span>TES PROJETS</span><b>+</b></div><div class="m"><div><p>Que cette année t’aide à avancer vers ce qui compte vraiment pour toi. Bolesi Mssylicious way oupps Maison Madea 🤫</p></div></div></button>
     <button class="card r" aria-expanded="false"><div class="t"><span>TES RÊVES</span><b>+</b></div><div class="m"><div><p>Continue de voir grand. Il reste encore tellement de choses à découvrir.</p></div></div></button>
-    <button class="card r" aria-expanded="false"><div class="t"><span>TES PROCHAINES AVENTURES</span><b>+</b></div><div class="m"><div><p>De nouvelles expériences, de nouveaux souvenirs et plein de belles choses à vivre.</p></div></div></button>
   </div>
   <button class="btn r" data-next>Suite ↓</button></div></section>
 
@@ -160,11 +160,11 @@ canvas.pc{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z
   <h2 class="r">Bon, petit moment sérieux <em>deux secondes.</em> 😂</h2>
   <p class="r">En vrai, on apprend tous des choses avec le temps.</p>
   <p class="r">Parfois, on se prend trop la tête pour des choses qui n’en valent même pas la peine. Parfois, notre ego prend un peu trop de place et on veut absolument avoir raison.</p>
-  <p class="r">Mais bon, on est humains, ça arrive à tout le monde.</p>
+  <p class="r">Mais bon, ay nitt legn, ça arrive à tout le monde.</p>
   <p class="r">Le plus important, c’est de savoir prendre du recul, reconnaître quand on aurait pu faire mieux et apprendre de ses expériences.</p>
-  <p class="r">L’orgueil, ça peut nous arriver à tous. Mais il ne faut pas le laisser prendre toutes les décisions à notre place.</p>
-  <p class="r">Au final, personne n’a tout compris. On apprend tous à notre rythme.</p>
-  <p class="r">Bref, gardons la tête sur les épaules et continuons d’avancer. 😂</p>
+  <p class="r">L’orgueil, ça peut nous arriver à tous. Mais il ne faut pas le laisser prendre toutes les décisions à notre place. C’est un poison qui détruit le cœur.</p>
+  <p class="r">Reste cette personne authentique, ne te laisse changer pour rien au monde, sois toi, et ça c’est très important.</p>
+  <p class="r">Bref, gardons la tête sur les épaules et continuons d’avancer.</p>
   <blockquote class="q r">Grandir, c’est aussi savoir se remettre en question sans se rabaisser.</blockquote>
   <button class="btn r" data-next>Suite ↓</button></div></section>
 
@@ -175,32 +175,32 @@ canvas.pc{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z
   <p class="r">Un bon moment, un fou rire, une bonne nouvelle, un projet qui avance, une journée qui se passe bien…</p>
   <p class="r">Ce sont des choses simples, mais elles comptent aussi.</p>
   <p class="r">Je te souhaite d’avoir plein de moments comme ça cette année.</p>
-  <p class="r s">Des moments où tu te dis simplement : Alhamdoulilah, la vie est belle. ❤️</p>
+  <p class="r s">Des moments où tu te dis simplement : Alhamdoulilah, la vie est belle.</p>
   <div class="gal" id="gal"></div>
   <button class="btn r" data-next>Suite ↓</button></div></section>
 
 <section id="c5" class="iv" data-t="Chapitre 5"><div class="glow"></div><div class="wrap">
   <div class="k r">Chapitre 5 · Ce que je te souhaite pour tes 20 ans</div>
-  <h2 class="r">Bon, soyons sérieux <em>une dernière fois.</em> ❤️</h2>
+  <h2 class="r">Bon, soyons sérieux <em>une dernière fois.</em></h2>
   <p class="r">Plus sérieusement, je te souhaite vraiment de réussir dans tout ce que tu entreprends.</p>
-  <p class="r">Je te souhaite de réaliser tes projets, de découvrir de nouvelles choses, de rencontrer de bonnes personnes et de vivre des moments dont tu te souviendras longtemps.</p>
-  <p class="r">Je te souhaite aussi de garder confiance en toi, de savoir ce que tu veux et de ne jamais oublier ce qui compte vraiment pour toi.</p>
+  <p class="r">Je te souhaite de réaliser tes projets, de découvrir de nouvelles choses et de vivre des moments dont tu te souviendras longtemps.</p>
+  <p class="r">Je te souhaite aussi de garder confiance en toi, de savoir ce que tu veux, de respecter tes valeurs que j’ai connues en toi et de ne jamais oublier ce qui compte vraiment.</p>
   <p class="r">Que cette nouvelle année t’apporte de belles opportunités, beaucoup de bonheur et surtout la santé.</p>
-  <p class="r">Continue d’avancer, apprends de tes expériences et profite de la vie.</p>
-  <p class="r s">20 ans, c’est encore le début de beaucoup de choses.</p>
-  <p class="r">Alors profite bien, prends soin de toi et que du positif pour la suite.</p>
-  <p class="r">Joyeux anniversaire, Assy. ❤️</p>
+  <p class="r">Continue d’avancer, et profite de la vie avec ceux que tu aimes.</p>
+  <p class="r s">20 ans, c’est pas rien mais c’est rien, il te reste beaucoup, inch’Allah.</p>
+  <p class="r">Alors profite bien, prends soin de toi et que du positif dans ta vie 🙌🏾</p>
+  <p class="r">Joyeux anniversaire, Assy.</p>
   <button class="btn r" data-next>Une dernière chose ↓</button></div></section>
 
 <section id="fin" data-t="Fin"><canvas class="pc" id="pf"></canvas><div class="glow"></div><div class="wrap">
   <svg class="rose soft" aria-hidden="true"><use href="#rose"/></svg>
   <div class="hb soft" data-s="1">HAPPY BIRTHDAY</div>
   <div class="full soft" data-s="2">ASSIETOU YACINE<br>GAYE ARIS <small>❤️</small></div>
-  <p class="conf soft" data-s="3">Malgré tout, tu sais que tu comptes. ❤️</p>
-  <div class="sig soft" data-s="4">— Bachir.</div>
+  <p class="conf soft" data-s="3">Malgré tout, tu sais que tu comptes.</p>
+  <div class="sig soft" data-s="4">— ton bébé d’antan</div>
   <button class="btn home soft" data-s="5" id="home">Revenir à l’accueil</button></div></section>
 
-<button id="mu" aria-pressed="false">♪ Musique : off</button>
+<button id="mu" class="on" aria-pressed="false">♪ Musique : off</button>
 <div id="lb" role="dialog" aria-modal="true" aria-label="Photo"><button class="x" aria-label="Fermer">✕</button><button class="p" aria-label="Précédente">‹</button><div id="lbc"></div><button class="n" aria-label="Suivante">›</button></div>
 
 <script>
